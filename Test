@@ -1,5 +1,19 @@
 0.1.本地的源文件上传到GitHub上的操作：
         直接选择上传即可。
 2.远程仓库的文件下载的本地的操作：
+	1.在所选的目录下右键打开git bush
   1.确保gitbush已经和github进行连接（连接完后续即可不用重复连接）
   2.git clone url
+3.将远程仓库下载的项目修改之后上传到远程仓库的操作：
+	1.拉取远程最新代码（避免冲突）
+		git pull
+	1.查看哪些文件被修改
+		git status
+	2.将修改的文件添加到暂存区:
+		git add .(添加所有的修改)
+		git add xxx(添加指定的修改)
+	3.将修改的文件提交到本地仓库
+		git commit -m "描述你的修改内容"
+	4.推送到远程仓库
+		git push
+	000[本地修改] → git pull → git add → git commit → git push → [GitHub 更新]
