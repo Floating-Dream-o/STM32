@@ -16,4 +16,4 @@
 		git commit -m "描述你的修改内容"
 	4.推送到远程仓库
 		git push
-	000[本地修改] → git pull → git add → git commit → git push → [GitHub 更新]
+	00000[本地修改] → git pull → git add → git commit → git push → [GitHub 更新]
