@@ -18,7 +18,7 @@
 		git push
 	流程图：[本地修改] → git pull → git add → git commit → git push → [GitHub 更新]
 4.远程仓库修改之后的文件更新本地文件的操作：
-	1.
+	git pull
 
 
 未解决的问题：
